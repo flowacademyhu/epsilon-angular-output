@@ -1,0 +1,22 @@
+<!-- #1 --><button (click)="addValue()">
+Simple Value
+</button> 
+<br>
+<br>
+
+<!-- #2 --><button (click)="write()">
+  Write Value
+</button>
+<input [(ngModel)]="writeVal" type="text">
+<br>
+<br>
+
+<!-- #3 -->
+<label (click)="check()" for="check">Checkbox</label>
+<input type="checkbox" id="check" [(ngModel)]="checkBoxVal">
+<br>
+<br>
+
+<!-- #4 -->
+OnChange
+<input (ngModelChange)="changeWrite($event)" [(ngModel)]="changeVal" type="text">
