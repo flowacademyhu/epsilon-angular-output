@@ -28,7 +28,7 @@ export class AppComponent {
   // #3
   handleCheckBox(value) {
     this.checkBoxValue = value;
-    console.log(value);
+    console.log('checkbox', value);
   }
 
   // #4
